@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download current CV"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "My work uses advanced MRI, especially arterial spin labeling (ASL), to measure how blood flows through the brain, and what that tells us about disease, development, and treatment."
+  },
+  {
+    "objectID": "projects/index.html#publications",
+    "href": "projects/index.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\nComparative evaluation of single- and multi-delay arterial spin labeling MRI in preterm neonates\nPrysiazhniuk Y, Alexander S, Duarte Armindo R, et al. · NeuroImage (2025)\nDOI\n\n\nAge-related changes in cerebral blood flow and arterial transit time in children: insights from single- and multi-delay ASL\nPrysiazhniuk Y, Duarte Armindo R, Alexander S, et al. · Neuroradiology (2025)\nDOI\n\n\nCharacterizing pre- and post-operative cerebral blood flow and transit time in pediatric moyamoya patients using multi-delay ASL and DSC MRI\nZhao MY, Alexander S, Lopez CA, et al. · Journal of Cerebral Blood Flow & Metabolism (2025)\nDOI\n\n\nEvaluating vascular hemodynamics in cerebral proliferative angiopathy using advanced arterial spin labeling MRI\nDuarte Armindo R, Zhao M, Alexander S, et al. · Stroke: Vascular and Interventional Neurology (2024)\nDOI"
+  },
+  {
+    "objectID": "projects/index.html#posters-abstracts",
+    "href": "projects/index.html#posters-abstracts",
+    "title": "Research",
+    "section": "Posters & Abstracts",
+    "text": "Posters & Abstracts\n\nTime as a biomarker: multi-delay ASL enhances cerebrovascular assessment in pediatric moyamoya disease. Brain & PET Conference, Korea, 2025\nMind the (contrast) gap: arterial spin labeling and AI redefine pediatric moyamoya treatment. Stanford Wu Tsai Neurosciences Institute Symposium, 2024\nFeasibility and hemodynamic insights from single- and multi-delay ASL MRI in preterm neonates. ESMRMB 2025\nImaging-based approach to the pathophysiology of moyamoya disease among diverse ethnicities. International Stroke Conference 2025"
+  },
+  {
+    "objectID": "projects/index.html#patents-pending",
+    "href": "projects/index.html#patents-pending",
+    "title": "Research",
+    "section": "Patents (pending)",
+    "text": "Patents (pending)\n\nHigh-efficiency spin-orbit torque magnetoresistive memory device having spin reflection layers. Sponsor: American Heart Association\nA novel method to predict treatment outcomes in neurosurgery using artificial intelligence. Sponsor: American Heart Association"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi, I’m Sasha, welcome to my website!",
+    "section": "",
+    "text": "Email\n  \n  \n    \n     GitHub\n  \n  \n    \n     CV"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Hi, I’m Sasha, welcome to my website!",
+    "section": "Education",
+    "text": "Education\n\nPhD, Clinical Translational Science · Case Western Reserve University\n2026 – present\n\n\nM.S., Regenerative and Stem Cell Technologies · Johns Hopkins University\n2023 – 2024\n\n\nB.S., Neurobiology, Physiology & Behavior · University of California, Davis\n2021"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Hi, I’m Sasha, welcome to my website!",
+    "section": "Experience",
+    "text": "Experience\n\nResearch Assistant, Zhao Lab · Stanford Medicine, Neurosurgery\n2023 – 2026: ASL and perfusion MRI analysis in cerebrovascular patients; helped write AHA and Stanford MCHRI grants.\n\n\nClinical Research Coordinator · Stanford Medicine, Neurosurgery\n2021 – 2026: Coordinated 15+ drug and device trials, from start-up through close-out, including: stroke, Parkinson’s, and essential tremor studies.\n\n\nResearch Assistant · Translational Cognitive Affective Neuroscience Lab, UC Davis\n2018 – 2021: DTI and fMRI research in early psychosis; independent VBM thesis on amygdala gray-matter volume.\n\n\nSee my research\nDownload my CV"
+  }
+]

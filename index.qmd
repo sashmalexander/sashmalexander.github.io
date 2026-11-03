@@ -1,0 +1,72 @@
+---
+about:
+  template: jolla
+  id: about-block
+  image: "img/frontimage.jpg"
+  links:
+    - icon: envelope
+      text: Email
+      href: "mailto:sxa1829@case.edu"
+    - icon: github
+      text: GitHub
+      href: https://github.com/sashmalexander
+    - icon: arrow
+      text: CV
+      href: cv/cv.pdf
+---
+
+::: {#about-block}
+:::
+
+# Hi, I'm Sasha, welcome to my website!
+
+I'm a PhD student in the Clinical Translational Science program at Case Western Reserve University, where I study heart brain dynamics and how we can see them with advanced imaging techniques.
+
+Before Case Western, I worked in the Department of Neurosurgery at Stanford Medicine, coordinating clinical trials and doing cerebrovascular MRI research, especially arterial spin labeling (ASL) perfusion imaging.
+
+Outside the lab, I'm a licensed private pilot, and I speak French, Arabic, and some Farsi.
+
+Some of my favorite hobbies include baking and cooking! 
+
+Feel free to [email me](mailto:sxa1829@case.edu). I'm always happy to talk science (or exchanging recipes) :)
+
+## Education
+
+::: {.edu-card}
+**PhD, Clinical Translational Science** · Case Western Reserve University\
+*2026 – present*
+:::
+
+::: {.edu-card}
+**M.S., Regenerative and Stem Cell Technologies** · Johns Hopkins University\
+*2023 – 2024*
+:::
+
+::: {.edu-card}
+**B.S., Neurobiology, Physiology & Behavior** · University of California, Davis\
+*2021*
+:::
+
+## Experience
+
+::: {.edu-card}
+**Research Assistant, Zhao Lab** · Stanford Medicine, Neurosurgery\
+*2023 – 2026*: ASL and perfusion MRI analysis in cerebrovascular patients; helped write AHA and Stanford MCHRI grants.
+:::
+
+::: {.edu-card}
+**Clinical Research Coordinator** · Stanford Medicine, Neurosurgery\
+*2021 – 2026*: Coordinated 15+ drug and device trials, from start-up through close-out, including: stroke, Parkinson's, and essential tremor studies.
+:::
+
+::: {.edu-card}
+**Research Assistant** · Translational Cognitive Affective Neuroscience Lab, UC Davis\
+*2018 – 2021*: DTI and fMRI research in early psychosis; independent VBM thesis on amygdala gray-matter volume.
+:::
+
+```{=html}
+<div style="margin: 30px; text-align: center;">
+<a class="btn btn-primary" href="projects/index.html" role="button" style="padding: 12px 28px; margin: 6px;">See my research</a>
+<a class="btn btn-outline-primary" href="cv/cv.pdf" role="button" target="_blank" style="padding: 12px 28px; margin: 6px;">Download my CV</a>
+</div>
+```

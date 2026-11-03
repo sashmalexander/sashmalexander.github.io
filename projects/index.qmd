@@ -1,0 +1,43 @@
+---
+title: Research
+---
+
+My work uses **advanced MRI**, especially arterial spin labeling (ASL), to measure how blood flows through the brain, and what that tells us about disease, development, and treatment.
+
+## Publications
+
+::: {.edu-card}
+**Comparative evaluation of single- and multi-delay arterial spin labeling MRI in preterm neonates**\
+Prysiazhniuk Y, **Alexander S**, Duarte Armindo R, *et al.* · *NeuroImage* (2025)\
+<a href="https://doi.org/10.1016/j.neuroimage.2025.121511" target="_blank">DOI</a>
+:::
+
+::: {.edu-card}
+**Age-related changes in cerebral blood flow and arterial transit time in children: insights from single- and multi-delay ASL**\
+Prysiazhniuk Y, Duarte Armindo R, **Alexander S**, *et al.* · *Neuroradiology* (2025)\
+<a href="https://doi.org/10.1007/s00234-025-03794-9" target="_blank">DOI</a>
+:::
+
+::: {.edu-card}
+**Characterizing pre- and post-operative cerebral blood flow and transit time in pediatric moyamoya patients using multi-delay ASL and DSC MRI**\
+Zhao MY, **Alexander S**, Lopez CA, *et al.* · *Journal of Cerebral Blood Flow & Metabolism* (2025)\
+<a href="https://doi.org/10.1177/0271678X251358979" target="_blank">DOI</a>
+:::
+
+::: {.edu-card}
+**Evaluating vascular hemodynamics in cerebral proliferative angiopathy using advanced arterial spin labeling MRI**\
+Duarte Armindo R, Zhao M, **Alexander S**, *et al.* · *Stroke: Vascular and Interventional Neurology* (2024)\
+<a href="https://doi.org/10.1161/SVIN.124.001552" target="_blank">DOI</a>
+:::
+
+## Posters & Abstracts
+
+- **Time as a biomarker:** multi-delay ASL enhances cerebrovascular assessment in pediatric moyamoya disease. *Brain & PET Conference, Korea, 2025*
+- **Mind the (contrast) gap:** arterial spin labeling and AI redefine pediatric moyamoya treatment. *Stanford Wu Tsai Neurosciences Institute Symposium, 2024*
+- Feasibility and hemodynamic insights from single- and multi-delay ASL MRI in preterm neonates. *ESMRMB 2025*
+- Imaging-based approach to the pathophysiology of moyamoya disease among diverse ethnicities. *International Stroke Conference 2025*
+
+## Patents (pending)
+
+- High-efficiency spin-orbit torque magnetoresistive memory device having spin reflection layers. *Sponsor: American Heart Association*
+- A novel method to predict treatment outcomes in neurosurgery using artificial intelligence. *Sponsor: American Heart Association*

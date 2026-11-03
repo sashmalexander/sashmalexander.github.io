@@ -1,0 +1,150 @@
+/*-- scss:defaults --*/
+
+/* From https://github.com/andrewheiss/ath-quarto/blob/main/html/ath.scss */
+
+$white:    #ffffff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #373a3c !default;
+$gray-900: #212529 !default;
+$black:    #000000 !default;
+
+$blue:    #2780e3 !default;
+$indigo:  #6610f2 !default;
+$purple:  #170C3A !default;
+$pink:    #A52C60 !default;
+$red:     #CF4446 !default;
+$orange:  #EE6A24 !default;
+$light-orange:  #FB9E07 !default;
+$yellow:  #F6D645 !default;
+$green:   #118230 !default;
+$teal:    #068194 !default;
+$cyan:    #3093CF !default;
+
+$primary:   #8a6fc4 !default;  // lavender
+$secondary: $gray-700 !default;
+$success:   $green !default;
+$info:      $cyan !default;
+$warning:   $orange !default;
+$danger:    $red !default;
+$light:     $gray-400 !default;
+$dark:      $black !default;
+
+
+
+// Links
+$link-color: $primary !default;
+$link-decoration: none !default;
+$link-hover-color: #d977a0 !default;  // rose
+$link-hover-decoration: underline !default;
+
+// Footer
+$footer-bg: #f3eefb !default;
+$footer-fg: #5b4b80 !default;
+
+// Inline code
+$code-bg: $gray-200 !default;
+$code-color: $gray-900 !default;
+
+// TOC
+$toc-color: $orange;
+$toc-font-size: 1em;
+
+// Code copy
+$btn-code-copy-color-active: $orange !default;
+
+
+// Pastel palette
+$lavender: #e9e1fa;
+$pink:     #fde4ec;
+$mint:     #dff5ec;
+$peach:    #ffe9d9;
+$sky:      #e1effc;
+
+$body-bg: #fffdfb !default;
+$navbar-bg: $lavender !default;
+$navbar-fg: #4a3b6b !default;
+$navbar-hl: #8a6fc4 !default;
+
+/*-- scss:rules --*/
+
+body { background: linear-gradient(180deg, #fdf7ff 0%, #fffdfb 40%, #f6fbff 100%); }
+
+h1, h2 { color: #4a3b6b; }
+h2 { border-bottom: 3px solid $pink !important; padding-bottom: .3rem; }
+
+.about-entity .about-image { border: 6px solid #fff; box-shadow: 0 0 0 6px $pink, 0 10px 30px rgba(138,111,196,.25); }
+.about-entity .about-links .about-link { background: #fff; border-color: #d9cdf3 !important; color: #5b4b80; border-radius: 999px; }
+.about-entity .about-links .about-link:hover { background: $lavender; text-decoration: none; }
+
+.edu-card { padding: .9rem 1.2rem; margin: .8rem 0; border-radius: 14px; background: $lavender; border-left: 6px solid #b9a5e8; }
+.edu-card:nth-of-type(3n+2) { background: $mint; border-left-color: #8fd3b6; }
+.edu-card:nth-of-type(3n+3) { background: $peach; border-left-color: #f4b48a; }
+.edu-card p { margin: 0; }
+
+.btn { border-radius: 999px; }
+.btn-primary { color: #fff; }
+
+
+
+.nav-footer {
+    align-items: flex-start;  // Align all flex items to the top
+    flex-wrap: wrap;
+    border: 0 !important;
+    min-height: 3em;
+    //font-family: $footer-font-family;
+
+    a {
+        color: $primary;
+    }
+
+    .faux-block {
+        display: block;
+        padding-bottom: 0.4em;
+    }
+
+    // In the default Quarto template, .nav-footer-center has position: absolute 
+    // turned on, which makes the div not be a flex item
+    // This changes that so that it *is* a flex item
+    .nav-footer-center {
+        text-align: center;
+        position: inherit;
+        margin-top: 0;
+
+        @media (max-width: map-get($grid-breakpoints, md)) {
+            margin-top: 0.5em;
+            margin-bottom: 1.5em;
+        }
+    }
+
+    // When the screen is medium or smaller, make each footer chunk be 100% width 
+    // and centered; otherwise make them be 33% width and left/right/centerd
+    .nav-footer-left,
+    .nav-footer-right,
+    .nav-footer-center {
+        text-align: center;
+        width: 100%;
+        min-height: 2em;
+    }
+
+    @media (min-width: map-get($grid-breakpoints, md)) {
+        .nav-footer-left {
+            text-align: left;
+        }
+
+        .nav-footer-right {
+            text-align: right;
+        }
+
+        .nav-footer-left,
+        .nav-footer-right,
+        .nav-footer-center {
+            flex: 1 1 33%;
+        }
+    }
+}
